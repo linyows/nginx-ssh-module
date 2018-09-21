@@ -2,7 +2,7 @@
 #include <ngx_config.h>
 #include <ngx_core.h>
 #include <ngx_event.h>
-#include <ngx_ssh.h>
+#include "ngx_ssh.h"
 
 static void *ngx_ssh_core_create_main_conf(ngx_conf_t *cf);
 static void *ngx_ssh_core_create_srv_conf(ngx_conf_t *cf);
